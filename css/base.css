@@ -1,0 +1,48 @@
+/*
+ * 公共CSS
+ * wuweiyuan
+ */
+/*
+ * 颜色定义
+ * #009999 绿 点线
+ * #00a3c4  蓝 按钮
+ * #EFEFF4  灰 背景
+ * 
+ */
+.layout{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.layout .logo{
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+}
+.layout .logo img{
+	width: 200px;
+	height: 40px;
+}
+
+.layout .main .mui-input-row{
+	border-bottom: 1px solid #009999;
+	background-color:#E0EEEE ;
+}
+.layout .main .mui-input-row label{
+ padding: 8px 15px;
+ width: 20%;
+
+}
+.layout .main .mui-input-row input{
+ width: 80%;
+ font-size: 14px;
+
+}
+.layout .main .mui-button-row{
+    margin-top: 40px;
+}
+.layout .main .mui-button-row button{
+	width: 60%;
+	
+	border-radius: 10px;
+	background-color: #00a3c4;
+}
