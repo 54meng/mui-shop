@@ -7,7 +7,7 @@
  * #009999 绿 点线
  * #00a3c4  蓝 按钮
  * #EFEFF4  灰 背景
- * 
+ * #FFFFF0  淡白
  */
 .layout{
 	padding-left: 20px;
@@ -25,7 +25,7 @@
 
 .layout .main .mui-input-row{
 	border-bottom: 1px solid #009999;
-	background-color:#E0EEEE ;
+	background-color:#FFFFF0 ;
 }
 .layout .main .mui-input-row label{
  padding: 8px 15px;
@@ -45,4 +45,15 @@
 	
 	border-radius: 10px;
 	background-color: #00a3c4;
+}
+.home{
+	background-color: #FFFFFF;
+}
+.home .mui-search{
+	margin-top: 5px;
+	background-color: #f2f2f2;
+}
+
+.home .mui-search input{
+	background-color:#FFFFFF ;
 }
